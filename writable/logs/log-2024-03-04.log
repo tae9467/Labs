@@ -1,0 +1,11 @@
+CRITICAL - 2024-03-04 08:53:26 --> Undefined array key "ASSET_JQUERYUI_JS"
+#0 C:\laragon\www\labs3\app\Views\Home\index.php(724): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 724)
+#1 C:\laragon\www\labs3\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\labs3\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\labs3\system\Common.php(1089): CodeIgniter\View\View->render('Home/index', Array, true)
+#4 C:\laragon\www\labs3\app\Controllers\Home.php(17): view('Home/index', Array)
+#5 C:\laragon\www\labs3\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\laragon\www\labs3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\labs3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\labs3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

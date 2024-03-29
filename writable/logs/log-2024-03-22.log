@@ -1,0 +1,9 @@
+CRITICAL - 2024-03-22 12:03:33 --> Invalid file: /Home/software/ninjaTrader.php
+#0 C:\laragon\www\labs3\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home/software/...')
+#1 C:\laragon\www\labs3\system\Common.php(1089): CodeIgniter\View\View->render('/Home/software/...', Array, true)
+#2 C:\laragon\www\labs3\app\Controllers\Home.php(91): view('/Home/software/...')
+#3 C:\laragon\www\labs3\system\CodeIgniter.php(825): App\Controllers\Home->ninjaTrader()
+#4 C:\laragon\www\labs3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\labs3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\labs3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

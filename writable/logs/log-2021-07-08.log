@@ -1,0 +1,95 @@
+CRITICAL - 2021-07-08 18:33:48 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 18:34:04 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 18:35:26 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 18:47:02 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 18:48:07 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+INFO - 2021-07-08 14:48:59 --> This is a test log entry.
+CRITICAL - 2021-07-08 18:49:41 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 18:50:30 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 18:50:50 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 19:09:31 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+INFO - 2021-07-08 15:10:05 --> This is a test log entry.
+INFO - 2021-07-08 15:10:08 --> This is a test log entry.
+CRITICAL - 2021-07-08 19:14:22 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 19:14:47 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 19:14:51 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 19:22:21 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 19:22:53 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+CRITICAL - 2021-07-08 19:27:56 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\scbapps3\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\scbapps3\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\scbapps3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\scbapps3\public\index.php(35): require('C:\\wamp64\\www\\s...')
+#4 {main}
+INFO - 2021-07-08 15:28:41 --> This is a test log entry.
+INFO - 2021-07-08 15:29:17 --> This is a test log entry.

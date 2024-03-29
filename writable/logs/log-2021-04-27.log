@@ -1,0 +1,22 @@
+CRITICAL - 2021-04-27 20:41:39 --> Invalid file: layout/standard.php
+#0 C:\wamp64\www\scbapps3\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/standard...')
+#1 C:\wamp64\www\scbapps3\system\View\View.php(236): CodeIgniter\View\View->render('layout/standard', Array, true)
+#2 C:\wamp64\www\scbapps3\system\Common.php(1217): CodeIgniter\View\View->render('Home/index', Array, true)
+#3 C:\wamp64\www\scbapps3\app\Controllers\Home.php(9): view('Home/index')
+#4 C:\wamp64\www\scbapps3\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\wamp64\www\scbapps3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\scbapps3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\scbapps3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 20:55:58 --> Undefined index: uid
+#0 C:\wamp64\www\scbapps3\app\Views\layouts\standard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 18, Array)
+#1 C:\wamp64\www\scbapps3\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\scbapps3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\scbapps3\system\View\View.php(236): CodeIgniter\View\View->render('layouts/standar...', Array, true)
+#4 C:\wamp64\www\scbapps3\system\Common.php(1217): CodeIgniter\View\View->render('Home/index', Array, true)
+#5 C:\wamp64\www\scbapps3\app\Controllers\Home.php(9): view('Home/index')
+#6 C:\wamp64\www\scbapps3\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 C:\wamp64\www\scbapps3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\scbapps3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\scbapps3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

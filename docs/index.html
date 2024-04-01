@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <script>
     // Using AJAX to fetch PHP content and insert it into the page
@@ -8,54 +8,15 @@
             document.querySelector('html').innerHTML = this.responseText;
         }
     };
-    xhttp.open("GET", "app/Views/ViewTemplates/_header.php", true);
-    xhttp.open("GET", "app/Views/ViewTemplates/navigation.php", true);
-    xhttp.open("GET", "app/Views/Home/remoteLabs.php", true);
-    xhttp.open("GET", "app/Views/ViewTemplates/_footer.php", true);
-    xhttp.send();
-</script>
-</html> -->
-<!DOCTYPE html>
-<html lang="en">
-<head class="header">
-    
-</head>
-<body class="navigation content">
-    <footer class="footer">
-        <!-- Footer content will be inserted here -->
-    </footer>
-    <script>
-        // Function to fetch PHP content and insert it into the specified element
-        async function fetchAndInsertContent(url, targetClass) {
-            return new Promise(function(resolve, reject) {
-                var xhttp = new XMLHttpRequest();
-                xhttp.onreadystatechange = function() {
-                    if (this.readyState == 4 && this.status == 200) {
-                        // Get all elements with the specified class
-                        var elements = document.getElementsByClassName(targetClass);
-                        // Insert fetched content into each element with the specified class
-                        for (var i = 0; i < elements.length; i++) {
-                            elements[i].innerHTML = this.responseText;
-                        }
-                        resolve();
-                    }
-                };
-                xhttp.open("GET", url, true);
-                xhttp.send();
-            });
-        }
-
-        // Fetch and insert header content
-        async function fetchAllContent() {
-            await fetchAndInsertContent("app/Views/ViewTemplates/_header.php", "header");
-            await fetchAndInsertContent("app/Views/ViewTemplates/_navigation.php", "navigation");
-            await fetchAndInsertContent("app/Views/Home/remoteLabs.php", "content");
-            await fetchAndInsertContent("app/Views/ViewTemplates/_footer.php", "footer");
-        }
-
-        fetchAllContent().catch(function(error) {
+    async function fetchAllContent() {
+        xhttp.open("GET", "app/Views/ViewTemplates/_header.php", true);
+        xhttp.open("GET", "app/Views/ViewTemplates/navigation.php", true);
+        xhttp.open("GET", "app/Views/Home/remoteLabs.php", true);
+        xhttp.open("GET", "app/Views/ViewTemplates/_footer.php", true);
+    }
+    fetchAllContent.catch(function(error) {
             console.error("Error fetching content:", error);
         });
-    </script>
-</body>
+    xhttp.send();
+</script>
 </html>

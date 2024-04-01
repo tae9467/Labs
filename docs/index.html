@@ -17,28 +17,13 @@
 </html> -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+<head id="header">
+    
 </head>
-<body>
-    <div id="header">
-        <!-- Header content will be inserted here -->
-    </div>
-
-    <div id="navigation">
-        <!-- Navigation content will be inserted here -->
-    </div>
-
-    <div id="content">
-        <!-- Content content will be inserted here -->
-    </div>
-
-    <div id="footer">
+<body id="navigation content">
+    <footer id="footer">
         <!-- Footer content will be inserted here -->
-    </div>
-
+    </footer>
     <script>
         // Function to fetch PHP content and insert it into the specified element
         function fetchAndInsertContent(url, targetId) {
@@ -53,10 +38,10 @@
         }
 
         // Fetch and insert header content
-        fetchAndInsertContent("app/Views/ViewTemplates/_header.php", "header");
+        fetchAndInsertContent("docs\app\Views\ViewTemplates\_header.php", "header");
 
         // Fetch and insert navigation content
-        fetchAndInsertContent("app/Views/ViewTemplates/navigation.php", "navigation");
+        fetchAndInsertContent("app/Views/ViewTemplates/_navigation.php", "navigation");
 
         // Fetch and insert content content
         fetchAndInsertContent("app/Views/Home/remoteLabs.php", "content");

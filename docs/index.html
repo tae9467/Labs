@@ -1,28 +1,17 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-</head>
-<body>
-    <div id="content">
-        <!-- PHP content will be inserted here -->
-        
-    </div>
-
-    <script>
-        // Using AJAX to fetch PHP content and insert it into the page
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("content").innerHTML = this.responseText;
-            }
-        };
-        xhttp.open("GET", "app/Views/Home/remoteLabs.php", true);
-        xhttp.send();
-    </script>
-</body>
+<html id="content" lang="en">
+<script>
+    // Using AJAX to fetch PHP content and insert it into the page
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("content").innerHTML = this.responseText;
+        }
+    };
+    xhttp.open("GET", "app/Views/ViewTemplates/_header.php", true);
+    xhttp.open("GET", "app/Views/ViewTemplates/navigation.php", true);
+    xhttp.open("GET", "app/Views/Home/remoteLabs.php", true);
+    xhttp.open("GET", "app/Views/ViewTemplates/_footer.php", true);
+    xhttp.send();
+</script>
 </html>

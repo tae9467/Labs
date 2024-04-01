@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <script>
     // Using AJAX to fetch PHP content and insert it into the page
@@ -14,4 +14,55 @@
     xhttp.open("GET", "app/Views/ViewTemplates/_footer.php", true);
     xhttp.send();
 </script>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <div id="header">
+        <!-- Header content will be inserted here -->
+    </div>
+
+    <div id="navigation">
+        <!-- Navigation content will be inserted here -->
+    </div>
+
+    <div id="content">
+        <!-- Content content will be inserted here -->
+    </div>
+
+    <div id="footer">
+        <!-- Footer content will be inserted here -->
+    </div>
+
+    <script>
+        // Function to fetch PHP content and insert it into the specified element
+        function fetchAndInsertContent(url, targetId) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById(targetId).innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", url, true);
+            xhttp.send();
+        }
+
+        // Fetch and insert header content
+        fetchAndInsertContent("app/Views/ViewTemplates/_header.php", "header");
+
+        // Fetch and insert navigation content
+        fetchAndInsertContent("app/Views/ViewTemplates/navigation.php", "navigation");
+
+        // Fetch and insert content content
+        fetchAndInsertContent("app/Views/Home/remoteLabs.php", "content");
+
+        // Fetch and insert footer content
+        fetchAndInsertContent("app/Views/ViewTemplates/_footer.php", "footer");
+    </script>
+</body>
 </html>

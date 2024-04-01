@@ -9,10 +9,10 @@
         }
     };
     async function fetchAllContent() {
-        xhttp.open("GET", "app/Views/ViewTemplates/_header.php", true);
-        xhttp.open("GET", "app/Views/ViewTemplates/navigation.php", true);
-        xhttp.open("GET", "app/Views/Home/remoteLabs.php", true);
-        xhttp.open("GET", "app/Views/ViewTemplates/_footer.php", true);
+        await xhttp.open("GET", "app/Views/ViewTemplates/_header.php", true);
+        await xhttp.open("GET", "app/Views/ViewTemplates/navigation.php", true);
+        await xhttp.open("GET", "app/Views/Home/remoteLabs.php", true);
+        await xhttp.open("GET", "app/Views/ViewTemplates/_footer.php", true);
     }
     fetchAllContent.catch(function(error) {
             console.error("Error fetching content:", error);

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Saunders Labs Portal</title>
+
+        <!-- jQuery -->
+        <script src="<?php echo $_SERVER['ASSET_JQUERY_JS']; ?>"></script>
+
+        <!-- Bootstrap -->
+        <link rel='stylesheet' href="<?php echo $_SERVER['ASSET_BOOTSTRAP_CSS']; ?>">
+        <script type="text/javascript" src="<?php echo $_SERVER['ASSET_BOOTSTRAP_JS']; ?>"></script>
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="<?php echo $_SERVER['ASSET_BOOTSTRAP_ICONS_CSS']; ?>">
+        <link rel="stylesheet" href="/assets/styles.css">
+        <script src="/assets/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img alt="RIT Saunders college of business logo" src="/assets/img/ritLogo.png">
+            <div></div>
+            <nav class="hideInMobile">
+                <ul>
+                    <li><a class="active" href="/Home/remoteLabs"><i class="bi bi-pc-display"></i> Remote Labs</a></li>
+                    <li><a class="active" href="/Home/software"><i class="bi bi-menu-button-wide"></i> Software</a></li>
+                    <li><a class="active" href="/Home/files"><i class="bi bi-folder"></i> Printing & Files</a></li>
+                    <li><a class="active" href="/Home/support"><i class="bi bi-headset"></i> Support</a></li>
+                    <li><a class="active" href="/Home/laptops"><i class="bi bi-laptop"></i> Laptops</a></li>
+                </ul>
+            </nav>
+            <nav class="hideInDesktop">
+                <ul>
+                    <li><a class="active" href="/Home/remoteLabs"><i class="bi bi-pc-display"></i> Remote Labs</a></li>
+                </ul>
+            </nav>
+            <!-- For mobile screens -->
+            <section onclick="toggleMobileMenu(this)" onmouseover="turnColor()" onmouseleave="resetColor()">
+                <div class="bar1 bar"></div>
+                <div class="bar2 bar"></div>
+                <div class="bar3 bar"></div>
+                <ul>
+                    <li><a class="active" href="/Home/remoteLabs"><i class="bi bi-pc-display"></i> Remote Labs</a></li>
+                    <li><a class="active" href="/Home/software"><i class="bi bi-menu-button-wide"></i> Software</a></li>
+                    <li><a class="active" href="/Home/files"><i class="bi bi-folder"></i> Printing & Files</a></li>
+                    <li><a class="active" href="/Home/support"><i class="bi bi-headset"></i> Support</a></li>
+                    <li><a class="active" href="/Home/laptops"><i class="bi bi-laptop"></i> Laptops</a></li>
+                </ul>
+            </section>
+        </header>
+
+        
+        
+        <footer>
+            <div class="roundedCorners"></div>
+            <p style="font-size: smaller; text-align: right;">
+                &copy; 2024 - <a href="https://saunders.rit.edu/" title="Click to visit the Saunders College of Business Website" target="_blank">Saunders College of Business</a><br>
+                <a href="https://techsupport.scb.rit.edu/" title="Click to visit the Saunders Technical Support Website" target="_blank">Saunders Technical Support</a>
+            </p>
+        </footer>
+    </body>
+</html>
+        
+        
+        

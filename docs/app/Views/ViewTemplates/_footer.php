@@ -6,5 +6,5 @@
                 <a href="https://techsupport.scb.rit.edu/" title="Click to visit the Saunders Technical Support Website" target="_blank">Saunders Technical Support</a>
             </p>
         </footer>
-    <!-- </body> -->
-<!-- </html> -->
+    </body>
+</html>

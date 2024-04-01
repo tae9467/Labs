@@ -26,7 +26,7 @@
     </footer>
     <script>
         // Function to fetch PHP content and insert it into the specified element
-        function fetchAndInsertContent(url, targetClass) {
+        async function fetchAndInsertContent(url, targetClass) {
             return new Promise(function(resolve, reject) {
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function() {
@@ -46,22 +46,16 @@
         }
 
         // Fetch and insert header content
-        fetchAndInsertContent("app/Views/ViewTemplates/_header.php", "header")
-            .then(function() {
-                // Fetch and insert navigation content
-                return fetchAndInsertContent("app/Views/ViewTemplates/_navigation.php", "navigation");
-            })
-            .then(function() {
-                // Fetch and insert content content
-                return fetchAndInsertContent("app/Views/Home/remoteLabs.php", "content");
-            })
-            .then(function() {
-                // Fetch and insert footer content
-                return fetchAndInsertContent("app/Views/ViewTemplates/_footer.php", "footer");
-            })
-            .catch(function(error) {
-                console.error("Error fetching content:", error);
-            });
+        async function fetchAllContent() {
+            await fetchAndInsertContent("app/Views/ViewTemplates/_header.php", "header");
+            await fetchAndInsertContent("app/Views/ViewTemplates/_navigation.php", "navigation");
+            await fetchAndInsertContent("app/Views/Home/remoteLabs.php", "content");
+            await fetchAndInsertContent("app/Views/ViewTemplates/_footer.php", "footer");
+        }
+
+        fetchAllContent().catch(function(error) {
+            console.error("Error fetching content:", error);
+        });
     </script>
 </body>
 </html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Saunders Labs Portal</title>
+
+        <!-- jQuery -->
+        <script src="https://assets.scb.rit.edu/jquery/3.6.0/jquery-3.6.0.min.js"></script>
+
+        <!-- Bootstrap -->
+        <link rel='stylesheet' href="https://assets.scb.rit.edu/bootstrap/5.1.3/css/bootstrap.css">
+        <script type="text/javascript" src="https://assets.scb.rit.edu/bootstrap/5.1.3/js/bootstrap.js"></script>
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://assets.scb.rit.edu/bootstrap-icons/1.7.1/bootstrap-icons.css">
+        <link rel="stylesheet" href="../assets/styles.css">
+        <script src="../assets/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img alt="RIT Saunders college of business logo" src="/assets/img/ritLogo.png">
+            <div></div>
+            <nav class="hideInMobile">
+                <ul>
+                    <li><a href="../index.html"><i class="bi bi-pc-display"></i> Remote Labs</a></li>
+                    <li><a href="software"><i class="bi bi-menu-button-wide"></i> Software</a></li>
+                    <li><a href="files"><i class="bi bi-folder"></i> Printing & Files</a></li>
+                    <li><a href="support"><i class="bi bi-headset"></i> Support</a></li>
+                    <li><a href="laptops"><i class="bi bi-laptop"></i> Laptops</a></li>
+                </ul>
+            </nav>
+            <nav class="hideInDesktop">
+                <ul>
+                    <li><a href="../index.html"><i class="bi bi-pc-display"></i> Remote Labs</a></li>
+                </ul>
+            </nav>
+            <!-- For mobile screens -->
+            <section onclick="toggleMobileMenu(this)" onmouseover="turnColor()" onmouseleave="resetColor()">
+                <div class="bar1 bar"></div>
+                <div class="bar2 bar"></div>
+                <div class="bar3 bar"></div>
+                <ul>
+                    <li><a href="../index.html"><i class="bi bi-pc-display"></i> Remote Labs</a></li>
+                    <li><a href="software"><i class="bi bi-menu-button-wide"></i> Software</a></li>
+                    <li><a href="files"><i class="bi bi-folder"></i> Printing & Files</a></li>
+                    <li><a href="support"><i class="bi bi-headset"></i> Support</a></li>
+                    <li><a href="laptops"><i class="bi bi-laptop"></i> Laptops</a></li>
+                </ul>
+            </section>
+        </header>
+        <main>
+            <section class="bigContentBox">
+                <h1>Saunders Ninja Trader Portal</h1>
+                <div class="blackBox">
+                    <section class="grayMainBox">
+                        <h2>Reset Ninja Trader Config</h2>
+                        <div class="whiteParagraphBox">
+                            <p>Should Ninja Trader fail to launch, here are some steps you can take to reset your Ninja Trader configuration.</p>
+                            <nav>
+                                <ol>
+                                    <li>Make sure that NinjaTrader is closed and not running.</li>
+                                    <li>Go to the <strong>Documents</strong> folder and rename <strong>NinjaTrader 8</strong> and <strong>NingaTrader 8 Backup</strong> to something else.  By renaming them, the files will remain intact so they can be used later.</li>
+                                    <li>Press the Windows Key (between shift and ctrl) and the <strong>R</strong> key at the same time to open a run prompt.  Enter <strong>regedit</strong> and click <strong>OK</strong>.</li>
+                                    <li>Go to <strong class="breakWord">HKEY_CURRENT_USER\Software</strong> and find <strong>NinjaTrader, LLC</strong>.  Right click on <strong>NingaTrader, LLC</strong> and select <strong>Delete</strong>.</li>
+                                    <li>Close the Registry Editor window and try opening NinjaTrader.</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="roundedCorners"></div>
+            <p style="font-size: smaller; text-align: right;">
+                &copy; 2024 - <a href="https://saunders.rit.edu/" title="Click to visit the Saunders College of Business Website" target="_blank">Saunders College of Business</a><br>
+                <a href="https://techsupport.scb.rit.edu/" title="Click to visit the Saunders Technical Support Website" target="_blank">Saunders Technical Support</a>
+            </p>
+        </footer>
+    </body>
+</html>
+

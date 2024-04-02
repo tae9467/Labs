@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Saunders Labs Portal</title>
+
+        <!-- jQuery -->
+        <script src="https://assets.scb.rit.edu/jquery/3.6.0/jquery-3.6.0.min.js"></script>
+
+        <!-- Bootstrap -->
+        <link rel='stylesheet' href="https://assets.scb.rit.edu/bootstrap/5.1.3/css/bootstrap.css">
+        <script type="text/javascript" src="https://assets.scb.rit.edu/bootstrap/5.1.3/js/bootstrap.js"></script>
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://assets.scb.rit.edu/bootstrap-icons/1.7.1/bootstrap-icons.css">
+        <link rel="stylesheet" href="../assets/styles.css">
+        <script src="../assets/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img alt="RIT Saunders college of business logo" src="/assets/img/ritLogo.png">
+            <div></div>
+            <nav class="hideInMobile">
+                <ul>
+                    <li><a href="../index.html"><i class="bi bi-pc-display"></i> Remote Labs</a></li>
+                    <li><a href="software"><i class="bi bi-menu-button-wide"></i> Software</a></li>
+                    <li><a class="active" href="files"><i class="bi bi-folder"></i> Printing & Files</a></li>
+                    <li><a href="support"><i class="bi bi-headset"></i> Support</a></li>
+                    <li><a href="laptops"><i class="bi bi-laptop"></i> Laptops</a></li>
+                </ul>
+            </nav>
+            <nav class="hideInDesktop">
+                <ul>
+                    <li><a href="../index.html"><i class="bi bi-pc-display"></i> Remote Labs</a></li>
+                </ul>
+            </nav>
+            <!-- For mobile screens -->
+            <section onclick="toggleMobileMenu(this)" onmouseover="turnColor()" onmouseleave="resetColor()">
+                <div class="bar1 bar"></div>
+                <div class="bar2 bar"></div>
+                <div class="bar3 bar"></div>
+                <ul>
+                    <li><a href="../index.html"><i class="bi bi-pc-display"></i> Remote Labs</a></li>
+                    <li><a href="software"><i class="bi bi-menu-button-wide"></i> Software</a></li>
+                    <li><a class="active" href="files"><i class="bi bi-folder"></i> Printing & Files</a></li>
+                    <li><a href="support"><i class="bi bi-headset"></i> Support</a></li>
+                    <li><a href="laptops"><i class="bi bi-laptop"></i> Laptops</a></li>
+                </ul>
+            </section>
+        </header>
+        <main>
+            <section class="bigContentBox">
+                <h1>Saunders Printing & Files Portal</h1>
+                <div class="blackBox">
+                    <section class="grayMainBox">
+                        <h2>Saunders Printing</h2>
+                        <div class="whiteParagraphBox">
+                            <p>Each student that is either taking a Saunders course or is registered as a Saunders major will receive an initial quote of 500 at the start of each semester.  Printing will be limited to one copy and will be set to duplex by default.</p>
+                            <p>To review your quota and your print history, please visit <a class="orange" href="https://scb-sv-prt-1.main.ad.rit.edu:9192/" target="_blank" title="Click to review and print your history!">https://scb-sv-prt-1.main.ad.rit.edu:9192/</a>.  The page uses a self signed security certificate.  Depending on your browser, you will need to accept the certificate to login to the page using your RIT Computer Account.</p>
+                        </div>
+                    </section>
+                    <section class="grayMainBox">
+                        <h2>Accessing your Lab Files</h2>
+                        <div class="whiteParagraphBox">
+                            <p>The Desktop, Documents, and Downloads folders in all of the Saunders labs are available from any Saunders lab computer.  You can also access your files by connecting your personal computer to the file server where they are located.</p>
+                            <p>You can access the Desktop, Documents and Download folders from anywhere on campus or from off campus with the use of <a class="orange" href="http://vpn.rit.edu/" target="_blank" title="Click to access your VPN!">VPN</a>.  You will need to connect to the SMB share where your files are located.</p>
+                            <p>In Windows, map a network drive to \\scb-sv-fs-1.main.ad.rit.edu\users$\YOUR_USERNAME</p>
+                            <p>On a Mac, connect to the server using smb://scb-sv-fs-1.main.ad.rit.edu/users$/YOUR_USERNAME</p>
+                            <p>When prompted for your username and password, be sure to use <strong>MAIN\</strong> in front of your username.</p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="roundedCorners"></div>
+            <p style="font-size: smaller; text-align: right;">
+                &copy; 2024 - <a href="https://saunders.rit.edu/" title="Click to visit the Saunders College of Business Website" target="_blank">Saunders College of Business</a><br>
+                <a href="https://techsupport.scb.rit.edu/" title="Click to visit the Saunders Technical Support Website" target="_blank">Saunders Technical Support</a>
+            </p>
+        </footer>
+    </body>
+</html>
